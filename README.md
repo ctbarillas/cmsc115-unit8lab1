@@ -41,16 +41,21 @@ https://github.com/ctbarillas/cmsc115-unit8lab1.git
 # Commit 3: Task 2 (sumEvenNumbers)
 
 ## Which tests in Task2Test were failing before your fix?
--
+- testEmpty, testOddNumbers, testSumEvenNumbers all failed.
 
 ## What was the issue in the code?
--
+- int sum = 1; should be initialized to int sum = 0; and the condition 
+- of the for loop was incorrect.
 
 ## What change did you make to fix it?
--
+- I changed int sum = 1; to int sum = 0; and changed the condition of the
+- for loop to read i < values.length;
 
 ## How did the tests help guide your fix?
--
+- They gave me an Out of Bounds error which led me to think of the
+- condition causing the iteration of the array to fail and once I fixed 
+- that, I ran the test again and saw that sum = 1 was causing the rest 
+- of the erroneous outputs. 
 
 ---
 
