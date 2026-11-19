@@ -62,16 +62,19 @@ https://github.com/ctbarillas/cmsc115-unit8lab1.git
 # Commit 4: Task 3 (sumRange)
 
 ## Which tests in Task3Test were failing before your fix?
--
+- testSumRangeReverseOrder fails
 
 ## What was the issue in the code?
--
+- The original code did not account for if the user enters the values
+- in reverse order, with the bigger number first. 
 
 ## What change did you make to fix it?
--
+- I added in an if else statement with nested for loops to account 
+- for this. Now the code can count up and count down. 
 
 ## How did the tests help guide your fix?
--
+- The tests made it very straightforward once I saw the expected vs
+- actual output. I did the math and knew how to fix it. 
 
 ---
 
