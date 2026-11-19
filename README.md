@@ -81,26 +81,36 @@ https://github.com/ctbarillas/cmsc115-unit8lab1.git
 # Overall Reflection
 
 ## Which task was the easiest to fix? Why?
--
+- Task 1 was the easiest for me. It did not make sense as I read the code for the first
+- time that a higher score would output "Meets" rather than "Exceed". That made the rest
+- of the debugging very easy.
 
 ## Which task was the most difficult? Why?
--
+- Task3 was the most difficult for me because I had to remember how to reverse the 
+- iteration order of a for loop. ++i was used way more than --i throughout the course.
 
 ## How did Git help you track your progress through the debugging process?
--
+- I liked that the README file is right there in my face the entire time and having the
+- commits at the top of the page made it easier to keep track of what step of the 
+- process I was on. 
 
 ## Why is it important to make small, frequent commits when debugging code?
--
+- Smaller commits make it easier to keep track of the code and what breaks it.
 
 ## What did you learn about using JUnit tests to guide debugging?
--
+- JUnit tests make it easier to pinpoint exactly what’s failing instead of guessing. 
+- When a test breaks, you know which part of the code to focus on, and once you fix 
+- it you can immediately confirm the fix worked.
 
 ---
 
 # Commit 5: Final Reflection
 
 ## What did you complete or update before making this final commit?
--
+- The Overall Reflection portion of the README file. 
 
 ## Why is it useful to document your work after completing a programming task?
--
+- In this case, when I had to step away for whatever reason, the documentation made it
+- much easier to pick up right where I left off rather than rereading the entire code 
+- to figure that out. I can imagine how it comes into play with longer code and/or 
+- multiple people collaborating on the same project. Documentation is vital to success.
