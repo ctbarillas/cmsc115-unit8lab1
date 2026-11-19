@@ -1,36 +1,40 @@
 # Lab Reflection: Unit 8 Lab 1 - Git Version Control + Debugging (BuggyProgram)
 
 ## Student Name
-Enter your name here.
+Cody T. Barillas
 
 ## GitHub Repository URL
-Paste your GitHub repository URL here.
+https://github.com/ctbarillas/cmsc115-unit8lab1.git
 
 ---
 
 # Commit 1: Initial Commit
 
 ## What did you include in this commit?
--
+- I chose all the original files.
 
 ## What was the purpose of this commit?
--
+- To establish a baseline for my code.
 
 ---
 
 # Commit 2: Task 1 (getGrade)
 
 ## Which tests in Task1Test were failing before your fix?
--
+- The edgeCases and testGrades tests were failing. 
 
 ## What was the issue in the code?
--
+- The issue was the ranges for the user score. The values for exceeds and
+- meets were swapped, and the use of the > symbol instead of >= was causing
+- an overlap in how the scoring was processed. 
 
 ## What change did you make to fix it?
--
+- I changed it so that a score >= 90 would output "Exceeds" >= 80 but < 90
+- would output "Meets" and anything else would output "Does not meet"
 
 ## How did the tests help guide your fix?
--
+- The tests showed me the expected outcome which I used to correct 
+- my code. 
 
 ---
 
